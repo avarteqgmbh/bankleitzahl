@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/avarteqgmbh/bankleitzahl.png?branch=master)](https://travis-ci.org/avarteqgmbh/bankleitzahl)
+
 # Bankleitzahl
 
 - fetch Bankleitzahlendatei from bundesbank.de
