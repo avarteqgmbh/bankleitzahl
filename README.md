@@ -24,7 +24,7 @@ There is a *Merkblatt Bankleitzahlendatei* describing the file format.
 content_lines = Bankleitzahl::Fetcher.current_lines # remote http request
 
 bank = Bankleitzahl::Parser.new(content_lines).all_banks.first
-bank.blz #=> "100000001"
+bank.blz #=> "10000001"
 bank.name #=> "Bundesbank"
 bank.short_name #=> "BBk Berlin"
 bank.zip #=> "10591"
