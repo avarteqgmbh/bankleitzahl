@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["gogolok@gmail.com"]
   spec.description   = %q{Bankleitzahlen (BLZ) for Ruby}
   spec.summary       = %q{Bankleitzahlen fetches and parses Bankleitzahldatei from bundesbank.de}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/avarteqgmbh/bankleitzahl"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
