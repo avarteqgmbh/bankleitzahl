@@ -1,3 +1,4 @@
+# encoding: UTF-8
 require 'addressable/uri'
 require 'net/http'
 require 'uri'
@@ -42,7 +43,8 @@ module Bankleitzahl
       response = http.request(request)
 
       if response.code.to_i == 200
-        response.body
+        response.body.force_encoding("ISO-8859-1")
+        response.body.encode("UTF-8")
       else
         nil
       end
