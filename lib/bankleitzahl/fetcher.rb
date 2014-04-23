@@ -8,7 +8,7 @@ module Bankleitzahl
 
   class Fetcher
 
-    CURRENT_URL = "http://www.bundesbank.de/Redaktion/DE/Downloads/Kerngeschaeftsfelder/Unbarer_Zahlungsverkehr/Bankleitzahlen/2013_12_08/blz_2013_09_09_txt.txt?__blob=publicationFile"
+    CURRENT_URL = "http://www.bundesbank.de/Redaktion/DE/Downloads/Aufgaben/Unbarer_Zahlungsverkehr/Bankleitzahlen/2014_06_08/blz_2014_03_03_txt.txt?__blob=publicationFile"
 
     def self.current_lines(fetcher_class = HttpFile)
       fetcher_class.fetch(CURRENT_URL)
